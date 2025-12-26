@@ -1,0 +1,176 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I assist you with?",
+        "Welcome! How may I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Exit",
+        "Quit"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "I forgot my password",
+        "Reset my password",
+        "I can't login",
+        "Password not working",
+        "Lost my password"
+      ],
+      "responses": [
+        "You can reset your password using the 'Forgot Password' option.",
+        "Please contact IT support to reset your password.",
+        "Try resetting your password from the account settings page."
+      ]
+    },
+    {
+      "tag": "login_issue",
+      "patterns": [
+        "Cannot login",
+        "Login failed",
+        "Account locked",
+        "Authentication error"
+      ],
+      "responses": [
+        "Please make sure your username and password are correct.",
+        "Your account may be locked. Contact IT support.",
+        "Try resetting your password and login again."
+      ]
+    },
+    {
+      "tag": "software_installation",
+      "patterns": [
+        "Install software",
+        "How do I install Python?",
+        "Install application",
+        "Software setup help"
+      ],
+      "responses": [
+        "Download the software from the official website and follow the instructions.",
+        "Make sure you have administrator privileges before installing.",
+        "Contact IT support if installation fails."
+      ]
+    },
+    {
+      "tag": "wifi_issue",
+      "patterns": [
+        "WiFi not working",
+        "Internet is slow",
+        "No internet connection",
+        "Network problem"
+      ],
+      "responses": [
+        "Try restarting your router.",
+        "Check if WiFi is enabled on your device.",
+        "Contact IT support if the issue continues."
+      ]
+    },
+    {
+      "tag": "email_issue",
+      "patterns": [
+        "Email not working",
+        "Cannot send email",
+        "Email login issue",
+        "Mailbox error"
+      ],
+      "responses": [
+        "Please check your email settings.",
+        "Make sure you are connected to the internet.",
+        "Try accessing your email through webmail."
+      ]
+    },
+    {
+      "tag": "printer_issue",
+      "patterns": [
+        "Printer not working",
+        "Cannot print",
+        "Printer offline",
+        "Print error"
+      ],
+      "responses": [
+        "Check if the printer is powered on.",
+        "Ensure the printer is connected properly.",
+        "Try reinstalling the printer driver."
+      ]
+    },
+    {
+      "tag": "system_slow",
+      "patterns": [
+        "My computer is slow",
+        "System running slow",
+        "Laptop is lagging",
+        "PC performance issue"
+      ],
+      "responses": [
+        "Try restarting your system.",
+        "Close unused applications to improve performance.",
+        "Run a virus scan and clean temporary files."
+      ]
+    },
+    {
+      "tag": "virus_issue",
+      "patterns": [
+        "I think I have a virus",
+        "Malware detected",
+        "Computer infected",
+        "Virus warning"
+      ],
+      "responses": [
+        "Please run an antivirus scan immediately.",
+        "Do not open suspicious files or links.",
+        "Contact IT support for assistance."
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [
+        "I don't understand",
+        "Help me",
+        "What can you do?",
+        "Support"
+      ],
+      "responses": [
+        "I'm here to help with IT-related issues.",
+        "Please describe your problem in more detail.",
+        "You can ask me about login, software, network, or system issues."
+      ]
+    }
+  ]
+}
